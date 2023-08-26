@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercises1</title>
+  <style>
+    .container  {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 50px;
+    }
+    .img-1 {
+      width: 200px;
+      border-radius: 50px;
+    }
+    .img-2 {
+      width: 200px;
+      object-fit:cover;
+      height: 200px;
+    }
+    .img-3 {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      object-fit: cover;
+    }
+    .search {
+      height: 1.5rem;
+      border-radius: 10px;
+      border:1px solid black;
+    }
+    .search-two {
+      height: 1.5rem;
+      border-radius: 10px;
+      border:1px solid black;
+      width: 75%;
+    }
+    p {
+      margin-bottom: 0px;
+    }
+    .agree {
+      border:none;
+      background-color: #295AAA;
+      color:white;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+      width: 380px;
+      cursor: pointer;
+    }
+    .img-three {
+      width: 40px;
+      height: 40px;
+    }
+    .p {
+      color:gray;
+    }
+    .tweet {
+      border: none;
+      color:white;
+      font-weight: bold;
+      background-color: #295AAA;
+      padding: 5px;
+      width: 75px;
+      border-radius: 10px;
+      cursor: pointer;
+      height: 40px;
+    }
+    .container-two {
+      margin: 0;
+      display: flex;
+      vertical-align: text-top;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .p {
+      margin: 0;
+      margin-left: -180px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="img-1" src="yetgenmeric.jpeg" alt="">
+    <img class="img-2" src="yetgenmeric.jpeg" alt="">
+    <img class="img-3" src="yetgenmeric.jpeg" alt="">
+  </div>
+  <input type="text" class="search" placeholder="Search"> <br> <br>
+  <input type="text" class="search-two" placeholder="Search Google or type a URL"> <br> <br>
+  <form action="form">
+    <p>Email</p>
+    <input class ="email" type="email" name="" id="">
+    <p>By clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <button class="agree">Agree & Join</button>
+  </form> <br> <br>
+  <div class="container-two">
+    <img class="img-3 img-three" src="yetgenmeric.jpeg" alt="">
+    <p class="p">What's happening?</p>
+    <button class="tweet">Tweet</button>
+  </div>
+</body>
+</html>
