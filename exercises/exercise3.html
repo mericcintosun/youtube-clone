@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div Exercises</title>
+  <style>
+    * {
+      margin: 0;
+    }
+    .red-square {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      border:5px solid green;
+    }
+    .green-circle {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      border-radius: 100px;
+      border:5px solid red;
+    }
+    .service {
+      border:2px solid black;
+      width: 200px;
+      padding: 20px;
+    }
+    .service-paragraph {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .youtube {
+      background-color:#1E1D1F;
+      width: 350px;
+      padding: 10px;
+      color:white;
+    }
+    .install {
+      margin-bottom: 10px;
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+    .add {
+      color:lightgray;
+    }
+    .box {
+      border:2px solid black;
+      display: inline-block;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .container {
+      border:1px solid gray;
+      width: 200px;
+      text-align: center;
+      padding: 10px;
+      display: inline-block;
+    }
+    .cat-one {
+      width: 200px;
+    }
+    .title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .friend {
+      color:gray;
+      margin-bottom: 5px;
+    }
+    .add-friend {
+     background-color: #2E5CB8;
+     color:white;
+     border: none;
+     cursor: pointer;
+     padding: 5px 8px 5px 8px;
+     border-radius: 10px; 
+    }
+    .cat-two {
+      width: 200px;
+    }
+    .dog-one {
+      width: 200px;
+    }
+    .google {
+      text-align: center;
+      border:1px solid black;
+      margin: auto;
+      width: 700px;
+      margin-bottom: 50px;
+    }
+    .google-logo {
+      width: 200px;
+      display: block;
+      margin-bottom: 6px;
+      text-align: center;
+      margin: auto;
+    }
+    .search {
+      display: block;
+      margin: auto;
+      width: 500px;
+      margin-bottom: 10px;
+      border:1px solid gray;
+      border-radius: 10px;
+      padding:10px 0px 10px 10px;
+      font-weight: bolder;
+    }
+    .btn-google {
+      border: none;
+      cursor: pointer;
+      background-color: lightgray;
+      font-weight: bold;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="red-square"></div>
+  <div class="green-circle"></div>
+  <br><hr><br>
+  <div class="service">
+    <p class="service-paragraph">Satisfied with our service?</p>
+    <button>Yes</button>
+    <button>No</button>
+  </div>
+  <br> <hr> <br>
+  <div class="youtube">
+    <p class="install">Install YouTube Music</p>
+    <p class="add">Add YouTube Music to your desktop for quick and easy access</p>
+  </div>
+  <br><hr><br>
+  <div class="box">
+    <div class="container">
+      <img class ="cat-one" src="cat1.jpeg" alt="">
+      <p class="title">Oliver</p>
+      <p class="friend">2 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="container">
+      <img class ="cat-two" src="cat2.jpeg" alt="">
+      <p class="title">Mimi</p>
+      <p class="friend">3 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="container">
+      <img class ="dog-one" src="dog1.jpeg" alt="">
+      <p class="title">Rex</p>
+      <p class="friend">4 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+  </div>
+  <br><hr><br>
+  <div class="google">
+    <img src="google.png" alt="" class="google-logo">
+    <input type="text" class="search" placeholder="Search Google or type a URL">
+    <button class="btn-google">Google Search</button>
+    <button class="btn-google">I'm Feeling Lucky</button>
+  </div>
+</body>
+</html>
