@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Exercise</title>
+  <style>
+    * {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    .grid-a {
+      display: grid;
+      grid-template-columns: 200px 75px;
+      margin-bottom: 10px;
+    }
+    .blue {
+      background-color: lightblue;
+    }
+    .pink {
+      background-color: lightpink;
+    }
+    .grid-b {
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+      margin-bottom: 10px;
+    }
+    .col1 {
+      background-color: lightblue;
+    }
+    .col2 {
+      background-color: lightpink;
+    }
+    .col3 {
+      background-color: lightblue;
+    }
+    .grid-c {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+      margin-bottom: 50px;
+    }
+    .col1-grid {
+      background-color: lightpink;
+    }
+    .box {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      margin: auto;
+      padding: 10px;
+    }
+    .name {
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 5px;
+    }
+    .friends {
+      color:gray;
+      margin-top: 5px;
+    }
+    .btn {
+      cursor: pointer;
+      border: none;
+      color:white;
+      background-color: #2C58B2;
+      border-radius: 10%;
+      padding: 5px 10px;
+      width: 100px;
+    }
+    .small-image {
+      display: grid;
+      grid-template-columns:1fr 3fr;
+      column-gap: 0;
+      padding: 10px 0;
+    }
+    .small-img {
+      border-radius: 100%;
+      width: 75%;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-a">
+    <div class="blue">
+      200px
+    </div>
+    <div class="pink">
+      75px
+    </div>
+  </div>
+  <div class="grid-b">
+    <div class="col1">
+      col1
+    </div>
+    <div class="col2">
+      col2
+    </div>
+    <div class="col3">
+      col3
+    </div>
+  </div>
+  <div class="grid-c">
+    <div class="col1-grid">col1</div>
+    <div class="col1-grid">col2</div>
+    <div class="col1-grid">col3</div>
+    <div class="col1-grid">col4</div>
+    <div class="col1-grid">col5</div>
+    <div class="col1-grid">col6</div>
+    <div class="col1-grid">col7</div>
+    <div class="col1-grid">col8</div>
+  </div>
+  <div class="box">
+    <div class="container">
+      <div class="image">
+        <img src="cat1.jpeg" alt="">
+      </div>
+      <p class="name">Oliver</p>
+      <div class="small-image">
+        <img class ="small-img" src="cat1.jpeg" alt="">
+        <p class="friends">2 mutual friends</p>
+      </div>
+      <button class="btn">Add Friend</button>
+    </div>
+    <div class="container">
+      <div class="image">
+        <img src="cat2.jpeg" alt="">
+      </div>
+      <p class="name">Mimi</p>
+      <div class="small-image">
+        <img class ="small-img" src="cat2.jpeg" alt="">
+        <p class="friends">3 mutual friends</p>
+      </div>
+      <button class="btn">Add Friend</button>
+    </div>
+    <div class="container">
+      <div class="image">
+        <img src="dog1.jpeg" alt="">
+      </div>
+      <p class="name">Rex</p>
+      <div class="small-image">
+        <img class ="small-img" src="dog1.jpeg" alt="">
+        <p class="friends">4 mutual friends</p>
+      </div>
+      <button class="btn">Add Friend</button>
+    </div>
+  </div>
+</body>
+</html>
