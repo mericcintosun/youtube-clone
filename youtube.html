@@ -7,15 +7,37 @@
   <title>YouTube Clone Project</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;500;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;500;700&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
   <link rel="icon" href="img/youtube-favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="css/youtube.css">
+  <link rel="stylesheet" href="css/video.css">
 </head>
 
 <body>
-  <!--Search Bar - Start -->
-  <input class="search-bar" type="text" placeholder="Search">
-  <!--Search Bar - End -->
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="svg/hamburger-menu.svg" alt="">
+      <img class="youtube-logo" src="svg/youtube-logo.svg" alt="">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="svg/search.svg" alt="">
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="svg/voice-search-icon.svg" alt="">
+      </button>
+    </div>
+    <div class="right-section">
+      <img class="upload-icon" src="svg/upload.svg" alt="">
+      <img class="youtube-apps-icon" src="svg/youtube-apps.svg" alt="">
+      <img class="notifications-icon" src="svg/notifications.svg" alt="">
+      <img class="current-user-picture" src="img/my-channel.jpeg" alt="">
+    </div>
+  </div>
+
   <div class="video-grid">
     <!-- Preview1 - Start -->
     <div class="video-preview">
@@ -27,7 +49,7 @@
           <img class="profile-picture" src="img/channel-1.jpeg" alt="">
         </div>
         <div class="video-info">
-          <p class="video-title">      
+          <p class="video-title">
             Talking Tech and AI with Google CEO Sundar Pichai!
           </p>
           <p class="video-author">
@@ -50,7 +72,7 @@
           <img class="profile-picture" src="img/channel-2.jpeg" alt="">
         </div>
         <div class="video-info">
-          <p class="video-title">      
+          <p class="video-title">
             Try Not To Laugh Challenge
           </p>
           <p class="video-author">
@@ -62,7 +84,7 @@
       </div>
     </div>
     <!-- Preview2 - End -->
-    
+
     <!-- Preview3 - Start -->
     <div class="video-preview">
       <div class="thumbnail-row">
@@ -73,7 +95,7 @@
           <img class="profile-picture" src="img/channel-3.jpeg" alt="">
         </div>
         <div class="video-info">
-          <p class="video-title">      
+          <p class="video-title">
             Crazy Tik Toks Taken Moments Before DISASTER
           </p>
           <p class="video-author">
@@ -96,7 +118,7 @@
           <img class="profile-picture" src="img/channel-4.jpeg" alt="">
         </div>
         <div class="video-info">
-          <p class="video-title">      
+          <p class="video-title">
             The Simplest Math Problem No One Can Solve - Collatz...
           </p>
           <p class="video-author">
@@ -116,10 +138,10 @@
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="img/channel5.jpeg" alt="">
+          <img class="profile-picture" src="img/channel-5.jpeg" alt="">
         </div>
         <div class="video-info">
-          <p class="video-title">      
+          <p class="video-title">
             Kadane's Alggorithm to Maximum Sum Subarray Problem
           </p>
           <p class="video-author">
@@ -142,7 +164,7 @@
           <img class="profile-picture" src="img/channel-6.jpeg" alt="">
         </div>
         <div class="video-info">
-          <p class="video-title">      
+          <p class="video-title">
             Anything You Can Fit In The Cricle I'll Pay For
           </p>
           <p class="video-author">
