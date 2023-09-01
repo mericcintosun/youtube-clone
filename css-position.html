@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Position</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+    .div-one {
+      background-color: lightblue;
+      width: 200px;
+      height: 200px;
+      position: static; /* Varsayılan */ 
+      
+    }
+    .div-two {
+      background-color: lightpink;
+      width: 200px;
+      height: 200px;
+    }
+    .header {
+      background-color: black;
+      color:white;
+      position: fixed;
+      top:0px;
+      left:0px;
+      width: 100%;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="header">Header</div>
+  <div class="div-one">div 1</div>
+  <div class="div-two">div 2</div>
+</body>
+</html>

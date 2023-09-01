@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .relative {
+      width: 400px;
+      height: 400px;
+      margin: auto;
+      background-color: lightblue;
+      position: relative;
+      transition:all 1s ease;
+    }
+    .relative:active {
+      background-color: lightsalmon;
+      color:brown;
+    }
+    .absolute {
+      background-color: lightpink;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 150px;
+      left: 150px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-family: arial;
+      font-size: 1rem;
+      border:1px solid black;
+      cursor: pointer;
+      transition: all 1s ease;
+    }
+    .absolute:active {
+      background-color: lightskyblue;
+      width: 200px;
+      height: 200px;
+      top:100px;
+      left:100px;
+      z-index:1;
+    }
+    .absolute-two {
+      background-color: lightpink;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-family: arial;
+      font-size: 1rem;
+      border:1px solid black;
+      cursor: pointer;
+      transition:all 1s ease;
+    }
+    .absolute-two:active {
+      background-color: lightsalmon;
+      width: 200px;
+      height: 200px;
+      top: 100px;
+      left: 100px;
+      z-index: 1;
+    }
+    .absolute-three {
+      background-color: lightpink;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 275px;
+      left: 275px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-family: arial;
+      font-size: 1rem;
+      border:1px solid black;
+      cursor: pointer;
+      transition: all 1s ease;
+    }
+    .absolute-three:active {
+      background-color: lightseagreen;
+      width: 200px;
+      height: 200px;
+      z-index: 1;
+      top: 100px;
+      left: 100px;
+    }
+    .absolute-four {
+      background-color: lightpink;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 25px;
+      left: 275px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-family: arial;
+      font-size: 1rem;
+      border:1px solid black;
+      cursor: pointer;
+      transition:all 1s ease;
+    }
+    .absolute-four:active {
+      background-color: lightgoldenrodyellow;
+      width: 200px;
+      height: 200px;
+      z-index: 1;
+      top: 100px;
+      left: 100px;
+    }
+    .absolute-five {
+      background-color: lightpink;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 275px;
+      left: 25px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-family: arial;
+      font-size: 1rem;
+      border:1px solid black;
+      cursor: pointer;
+      transition: 1s all ease;
+    }
+    .absolute-five:active {
+      background-color: lightslategray;
+      width: 200px;
+      height: 200px;
+      z-index: 1;
+      top: 100px;
+      left: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="relative">
+    <div class="absolute">
+      square
+    </div>
+    <div class="absolute-two">
+      square
+    </div>
+    <div class="absolute-three">
+      square
+    </div>
+    <div class="absolute-four">
+      square
+    </div>
+    <div class="absolute-five">
+      square
+    </div>
+  </div>
+</body>
+</html>

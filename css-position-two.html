@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Position Two</title>
+  <style>
+    body {
+      height: 3000px;
+      padding: 60px 0 0 80px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    header {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index:1;
+    }
+    .sidebar {
+      background-color: green;
+      color: white;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      top: 50px;
+      width: 72px;
+    }
+    .div-one {
+      background-color: lightblue;
+      height: 200px;
+      width: 200px;
+      position: static;
+    }
+    .div-two {
+      background-color: lightpink;
+      height: 200px;
+      width: 200px;
+      position: static;
+    }
+    .absolute {
+      position: absolute;
+      background: red;
+      color:white;
+      font-size: 16px;
+      top: 60px;
+      right:10px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    header
+  </header>
+  <div class="sidebar">
+    sidebar
+  </div>
+  <div class="absolute">
+    absolute
+  </div>
+  <div class="div-one">
+    div 1
+  </div>
+  <div class="div-two">
+    div 2
+  </div>
+</body>
+</html>
